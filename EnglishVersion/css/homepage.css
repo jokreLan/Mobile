@@ -1,0 +1,437 @@
+
+.container .swiper-pagination-bullet {
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #fff;
+    /*//opacity: .2;*/
+}
+#vr_show {
+    position: relative;
+    /*//width: 1200px;*/
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/*#vr_show .swiper-container {*/
+    /*padding-bottom: 60px;*/
+/*}*/
+
+#vr_show  .swiper-slide {
+    /*width: 520px;*/
+    width:75%;
+    /*height: 408px;*/
+    background: #fff;
+    box-shadow: 0 8px 30px #ddd;
+}
+#vr_show  .swiper-slide img{
+    display:block;
+}
+#vr_show  .swiper-slide p {
+    line-height: 98px;
+    padding-top: 0;
+    text-align: center;
+    color: #636363;
+    font-size: 1.1em;
+    margin: 0;
+}
+
+#vr_show .swiper-pagination {
+    width: 100%;
+    bottom: 20px;
+}
+
+#vr_show .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 5px;
+    border: 3px solid #fff;
+    background-color: #d5d5d5;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+}
+
+#vr_show .swiper-pagination-bullets .swiper-pagination-bullet-active {
+    border: 3px solid #00aadc;
+    background-color: #fff;
+}
+
+#vr_show .swiper-button-prev {
+    left: 20px;
+    width: 45px;
+    height: 45px;
+    background: url(../images/row_left.png) no-repeat;
+    background-position: 0 0;
+    background-size: 100%;
+    transform:translateY(-100px);
+}
+
+/*#vr_show .swiper-button-prev:hover {*/
+    /*background-position: 0 -46px;*/
+    /*background-size: 100%*/
+/*}*/
+
+#vr_show .swiper-button-next {
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    background: url(../images/row_left.png) no-repeat;
+    /*background-position: 0 -93px;*/
+ 
+    transform: rotate(180deg) translateY(100px);
+    background-size: 100%;
+}
+
+/*#vr_show .swiper-button-next:hover {*/
+    /*background-position: 0 -139px;*/
+    /*background-size: 100%*/
+/*}*/
+
+.lunbo-infor h3{
+
+    font-size: 36px;
+    text-align: center;
+}
+#vr_show  .swiper-slide .lunbo-infor{
+    padding-top: 10px;
+    padding-bottom:110px;
+}
+#vr_show  .swiper-slide .lunbo-infor p{
+    line-height: 36px;
+    font-size: 14px;
+}
+.fuwu{
+    position: relative;
+    margin-top:40px;
+}
+.fuwu .fu_container{
+    position: absolute;
+    top: 0;
+    bottom: 34%;
+    left: 0;
+    right: 0;
+}
+.fuwu .fu_container .fu_shenqing{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.fuwu .fu_container .fu_kaitong{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.fuwu .fu_container h4{
+    height: 24%;
+
+}
+.fuwu .fu_shenqing_title{
+    padding-left:100px ;
+    line-height: 75px;
+    font-size:30px;
+    text-align: left;
+    font-weight: bold;
+}
+.fuwu .fu_kaitong_title{
+
+    padding-right:100px ;
+    line-height: 75px;
+    font-size:30px;
+    text-align: right;
+    font-weight: bold;
+    color: #fff
+}
+.fuwu .fu_shenqing_flow{
+    width: 64%;
+    height: 100%;
+    margin-left:22% ;
+}
+.fuwu .flow_first{
+    text-align: center;
+}
+.fuwu .flow_first .flow_first_user span{
+    font-size: 18px;
+    padding: 3px 12px;
+    vertical-align: middle;
+    display: inline-block;
+    color:#fff;
+    background-image: url('../images/icon_17.png');
+    background-size: 100% 100%;
+}
+.fuwu .yingye{
+    /*overflow: auto;*/
+}
+.fuwu .flow_first .flow_first_icon,.fuwu .yingye_icon,.fuwu .tel10086_icon{
+    margin: 3px ;
+    background-image: url('../images/icon_09.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+}
+.t-c{
+    text-align: center;
+}
+.fuwu .yingye_title,.fuwu .tel10086_title{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.fuwu .yingye_title span,.fuwu .tel10086_title span{
+    line-height: 18px;
+    font-size: 18px;
+    padding: 3px 12px;
+    display: inline-block;
+    color:#fff;
+    background-image: url('../images/icon_17.png');
+    background-size: 100% 100%;
+}
+.clearFix{
+    content: '';
+    display: table;
+    clear: both;
+}
+.fuwu .flow_third_01,.fuwu .flow_third_03{
+    position: relative;
+}
+.fuwu .flow_third_01:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top:7px;
+    width: 18px;
+    height: 10px;
+    background-image: url('../images/icon_21.png');
+    background-size: 100% 100%;
+    transform: translateX(-9px);
+}
+.fuwu .flow_third{
+    padding-top: 28px;
+    padding-bottom:28px;
+    background: url('../images/homepage_bg_002.png');
+    background-size: 100% 100%;
+}
+.fuwu .flow_third_03:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top:7px;
+    width: 18px;
+    height: 10px;
+    background-image: url('../images/icon_24.png');
+    background-size: 100% 100%;
+    transform: translateX(-9px);
+}
+.fuwu .fu_kaitong_con_01{
+    text-align: center;
+    font-size: 18px ;
+    color:#fff;
+}
+.fuwu .fu_kaitong_con_01 span{
+    line-height: 18px;
+    font-size: 18px;
+    padding: 3px 12px;
+    display: inline-block;
+    color:#fff;
+    background-image: url('../images/icon_05.png');
+    background-size: 100% 100%;
+}
+.fu_kaitong_con_icon{
+    margin: 3px ;
+    background-image: url('../images/icon_25.png');
+    background-size: 100% 100%;
+    display: inline-block;
+    width: 10px;
+    height: 18px;
+}
+.fuwu .fuwu_contact{
+    position:absolute ;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 34%;
+    background:url('../images/homepage_bg02_24.png') ;
+}
+.fuwu_contact_tel{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fuwu_contact_address{
+    width: 60%;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.kefu_ziliao{
+    text-align: center;
+    font-size: 18px;
+    padding:10px;
+}
+.kefu_question50{
+    float: left;
+
+    font-size: 18px;
+    width: 50%;
+    text-align: center;
+
+}
+.kefu_question50 span{
+    padding:5px 15px ;
+    background: rgba(126, 206, 244,.5);
+    border-radius: 20px;
+}
+.kefu_tel_icon{
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url('../images/icon_telphone_01_28.png');
+    background-size: 100% 100%;
+
+}
+.fuwu_contact .kefu_tel{
+    margin-left:70px ;
+    font-size: 18px;
+    text-align: center;
+    color:#fff;
+    background: url('../images/homepage_bg03_25.png');
+    background-size: 100% 100%;
+    padding: 35px 15px;
+}
+.fuwu_contact_address{
+    width: 60%;
+    float: left;
+}
+.hezuo h3{
+
+    padding-top: 70px;
+    padding-bottom:30px;
+    padding-left:100px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hezuo .hezuo_imgCont{
+    padding: 0 150px;
+}
+.hezuo .hezuo_imgCont div{
+    width: 12.5%;
+    padding: 1px;
+    float: left;
+}
+.hezuo .hezuo_imgCont div img{
+    width: 100%;
+}
+.kaitong .kaitong_flow_title,.zifei_shuoming_title{
+    padding:30px 0 25px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.kaitong .kaitong_img_title{
+
+    float:left;
+    width: 33%;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.kaitong .kaitong_flow_card_con{
+    float:left;
+    width: 33%;
+    font-size: 14px;
+}
+.kaitong_card_title{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 40px;
+}
+.kaitong .kaitong_card_title{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: justify;
+    line-height: 36px;
+}
+.kaitong .kaitong_card_text{
+    font-size: 18px;
+    font-weight: normal;
+    color:#fff;
+    line-height: 36px;
+}
+.kaitong .kaitong_tep_text span{
+    /* display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding: 2px 10px;
+    border-radius: 14px;
+    background: #3297FF; */
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    padding-right: 8px;
+    padding: 0 8px;
+    height: 100%;
+    border-radius: 14px;
+    background: #3297FF;
+}
+.kaitong .kaitong_card_title .lf{
+    float: left;
+}
+.kaitong .kaitong_card_title .rt{
+    float: right;
+}
+.kaitong_flow_card_container{
+    position: relative;
+    padding: 20px;
+}
+.kaitong_tep1{
+    float: left;
+    height: 90px;
+    width: 33%;
+    text-align: center;
+}
+.kaitong_tep_text.user{
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+}
+.kaitong .kaitong_flow_tep{
+    /* background-image:url('../images/kaitong_radius01.png') ; */
+}
+.kaitong_flow_tep{
+    width: 45%;
+    float: left;
+    position: relative;
+}
+.kaitong_flow_tep1{
+    width: 55%;float: left;position: relative;
+}
+.kaitong_flow_tep1 .line{
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background: #00B7EE;
+    z-index: -1;
+    top: 45px;
+    left: -15%;
+}
+.kaitong_flow_tep_bg{
+    width: 61%;
+    height: 100%;
+    position: relative;
+    height: 79%;
+    position: absolute;
+    top: 11%;
+    bottom: 0;
+    left: 18%;
+    z-index: -1;
+}
+.kaitong_shuoming p{
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 28px;
+}
