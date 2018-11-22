@@ -231,7 +231,8 @@
 .fuwu .fu_kaitong_con_01 span{
     line-height: 18px;
     font-size: 18px;
-    padding: 3px 12px;
+    width: 135px;
+    padding: 4px 12px;
     display: inline-block;
     color:#fff;
     background-image: url('../images/icon_05.png');
@@ -359,7 +360,7 @@
     font-size: 18px;
     font-weight: normal;
     color:#fff;
-    line-height: 36px;
+    line-height: 30px;
 }
 .kaitong .kaitong_tep_text span{
     /* display: inline-block;
