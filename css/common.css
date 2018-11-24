@@ -1,3 +1,9 @@
+body{
+    min-width: 1100px;
+}
+nav .container{
+    min-width: 970px;
+}
 a,
 p,
 li,
